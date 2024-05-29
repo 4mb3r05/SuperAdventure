@@ -36,6 +36,12 @@
             this.lblGold = new System.Windows.Forms.Label();
             this.lblExperience = new System.Windows.Forms.Label();
             this.lblLevel = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cboWeapons = new System.Windows.Forms.ComboBox();
+            this.cboPotions = new System.Windows.Forms.ComboBox();
+            this.btnUseWeapon = new System.Windows.Forms.Button();
+            this.btnUsePotion = new System.Windows.Forms.Button();
+            this.North = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -114,11 +120,69 @@
             this.lblLevel.Size = new System.Drawing.Size(0, 32);
             this.lblLevel.TabIndex = 7;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(617, 531);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(178, 32);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Select action";
+            // 
+            // cboWeapons
+            // 
+            this.cboWeapons.FormattingEnabled = true;
+            this.cboWeapons.Location = new System.Drawing.Point(369, 559);
+            this.cboWeapons.Name = "cboWeapons";
+            this.cboWeapons.Size = new System.Drawing.Size(121, 39);
+            this.cboWeapons.TabIndex = 9;
+            // 
+            // cboPotions
+            // 
+            this.cboPotions.FormattingEnabled = true;
+            this.cboPotions.Location = new System.Drawing.Point(369, 593);
+            this.cboPotions.Name = "cboPotions";
+            this.cboPotions.Size = new System.Drawing.Size(121, 39);
+            this.cboPotions.TabIndex = 10;
+            // 
+            // btnUseWeapon
+            // 
+            this.btnUseWeapon.Location = new System.Drawing.Point(620, 559);
+            this.btnUseWeapon.Name = "btnUseWeapon";
+            this.btnUseWeapon.Size = new System.Drawing.Size(75, 23);
+            this.btnUseWeapon.TabIndex = 11;
+            this.btnUseWeapon.Text = "Use";
+            this.btnUseWeapon.UseVisualStyleBackColor = true;
+            // 
+            // btnUsePotion
+            // 
+            this.btnUsePotion.Location = new System.Drawing.Point(620, 593);
+            this.btnUsePotion.Name = "btnUsePotion";
+            this.btnUsePotion.Size = new System.Drawing.Size(75, 23);
+            this.btnUsePotion.TabIndex = 12;
+            this.btnUsePotion.Text = "Use";
+            this.btnUsePotion.UseVisualStyleBackColor = true;
+            // 
+            // North
+            // 
+            this.North.Location = new System.Drawing.Point(493, 433);
+            this.North.Name = "North";
+            this.North.Size = new System.Drawing.Size(75, 23);
+            this.North.TabIndex = 13;
+            this.North.Text = "button1";
+            this.North.UseVisualStyleBackColor = true;
+            // 
             // SuperAdventure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(779, 601);
+            this.ClientSize = new System.Drawing.Size(1018, 784);
+            this.Controls.Add(this.North);
+            this.Controls.Add(this.btnUsePotion);
+            this.Controls.Add(this.btnUseWeapon);
+            this.Controls.Add(this.cboPotions);
+            this.Controls.Add(this.cboWeapons);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.lblLevel);
             this.Controls.Add(this.lblExperience);
             this.Controls.Add(this.lblGold);
@@ -145,6 +209,12 @@
         private System.Windows.Forms.Label lblGold;
         private System.Windows.Forms.Label lblExperience;
         private System.Windows.Forms.Label lblLevel;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox cboWeapons;
+        private System.Windows.Forms.ComboBox cboPotions;
+        private System.Windows.Forms.Button btnUseWeapon;
+        private System.Windows.Forms.Button btnUsePotion;
+        private System.Windows.Forms.Button North;
     }
 }
 
